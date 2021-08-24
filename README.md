@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-![Optional Text](../master/img/img.png)
+![Optional Text](../master/img/img.jpg)
 
 ## Getting Started
 
