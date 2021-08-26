@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:get/get.dart';
-import 'package:shoppyshop/modules/on_boarding_module/views/onboarding_slides.dart';
+import 'package:shoppyshop/modules/on_boarding_module/onboarding_slides.dart';
 
 class SplashController extends GetxController {
   @override

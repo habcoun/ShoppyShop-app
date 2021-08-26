@@ -4,14 +4,13 @@ import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:shoppyshop/shared/constant/const_colors.dart';
 import 'package:shoppyshop/shared/constant/const_images.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 List<PageModel> onBoardingPages() {
   final onBoardingPages = [
     PageModel.withChild(
       child: Container(
-        height: Get.height.sh,
-        width: Get.width.sw,
+        height: Get.height,
+        width: Get.width,
         decoration: BoxDecoration(
           image: DecorationImage(
               image: AssetImage(
@@ -22,7 +21,7 @@ List<PageModel> onBoardingPages() {
         child: Column(
           children: [
             SizedBox(
-              height: 60.h,
+              height: 60,
             ),
             Padding(
               padding: const EdgeInsets.symmetric(
@@ -33,17 +32,17 @@ List<PageModel> onBoardingPages() {
                 children: [
                   Lottie.asset(
                     'assets/images/47336-online-shopping-search-product-concept-animation.json',
-                    width: Get.width / 1.5.w,
+                    width: Get.width / 1.5,
                     fit: BoxFit.fill,
                   ),
                   SizedBox(
-                    height: 30.h,
+                    height: 30,
                   ),
                   Text(
                     'Divers produits et vendeur',
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                      fontSize: 30.sp,
+                      fontSize: 30,
                       color: Colors.white,
                       fontFamily: 'PoppinsSemiBold',
                     ),
@@ -58,7 +57,7 @@ List<PageModel> onBoardingPages() {
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontFamily: 'Poppins',
-                        fontSize: 16.sp,
+                        fontSize: 16,
                         color: Colors.white,
                       ),
                     ),
@@ -86,7 +85,7 @@ List<PageModel> onBoardingPages() {
         child: Column(
           children: [
             SizedBox(
-              height: 60.h,
+              height: 60,
             ),
             Container(
               padding: const EdgeInsets.symmetric(
@@ -97,23 +96,23 @@ List<PageModel> onBoardingPages() {
                 children: [
                   Lottie.asset(
                     'assets/images/47342-online-shopping-banner-concept-animation.json',
-                    width: Get.width / 1.5.w,
+                    width: Get.width / 1.5,
                     fit: BoxFit.fill,
                   ),
                   SizedBox(
-                    height: 30.h,
+                    height: 30,
                   ),
                   Text(
                     'SoppyShop vous facilite la vie !',
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                      fontSize: 30.sp,
+                      fontSize: 30,
                       color: Colors.white,
                       fontFamily: 'PoppinsSemiBold',
                     ),
                   ),
                   SizedBox(
-                    height: 10.h,
+                    height: 10,
                   ),
                   Padding(
                     padding: const EdgeInsets.all(20.0),
@@ -122,7 +121,7 @@ List<PageModel> onBoardingPages() {
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontFamily: 'Poppins',
-                        fontSize: 16.sp,
+                        fontSize: 16,
                         color: Colors.white,
                       ),
                     ),
@@ -161,23 +160,23 @@ List<PageModel> onBoardingPages() {
                 children: [
                   Lottie.asset(
                     'assets/images/47337-online-shopping-pay-online-secure-payment.json',
-                    width: Get.width / 1.5.w,
+                    width: Get.width / 1.5,
                     fit: BoxFit.fill,
                   ),
                   SizedBox(
-                    height: 30.h,
+                    height: 30,
                   ),
                   Text(
                     'Paiement Sécurisé, Simple et Rapide',
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                      fontSize: 30.sp,
+                      fontSize: 30,
                       color: Colors.white,
                       fontFamily: 'PoppinsSemiBold',
                     ),
                   ),
                   SizedBox(
-                    height: 10.h,
+                    height: 10,
                   ),
                   Padding(
                     padding: const EdgeInsets.all(20.0),
@@ -186,7 +185,7 @@ List<PageModel> onBoardingPages() {
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontFamily: 'Poppins',
-                        fontSize: 16.sp,
+                        fontSize: 16,
                         color: Colors.white,
                       ),
                     ),

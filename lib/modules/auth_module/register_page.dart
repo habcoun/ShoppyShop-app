@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:shoppyshop/modules/auth_module/controllers/auth_controller.dart';
-import 'package:shoppyshop/modules/auth_module/widgets/register_body.dart';
+import 'package:shoppyshop/modules/auth_module/auth_controller.dart';
+import 'package:shoppyshop/modules/auth_module/register_body.dart';
 
 class RegisterPage extends GetView<AuthController> {
   @override

@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:shoppyshop/modules/auth_module/controllers/auth_controller.dart';
-import 'package:shoppyshop/modules/auth_module/views/register_page.dart';
-import 'package:shoppyshop/modules/dashboard_module/views/dashboard_page.dart';
+import 'package:shoppyshop/modules/auth_module/auth_controller.dart';
+import 'package:shoppyshop/modules/auth_module/register_page.dart';
+import 'package:shoppyshop/modules/dashboard_module/dashboard_page.dart';
 import 'package:shoppyshop/shared/components/components.dart';
 import 'package:shoppyshop/shared/constant/const_colors.dart';
 import 'package:shoppyshop/shared/constant/const_images.dart';

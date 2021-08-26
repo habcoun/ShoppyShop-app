@@ -6,4 +6,5 @@ class ImageApp {
   static const KFaceboook = 'assets/images/logos_facebook.png';
   static const KAppel = 'assets/images/ant-design_apple-filled.png';
   static const KWomen = 'assets/images/women_cat.png';
+  static const KOffreIamge = 'assets/images/image_offre.png';
 }

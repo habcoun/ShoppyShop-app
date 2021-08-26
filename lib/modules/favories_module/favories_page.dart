@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../controllers/pannier_controller.dart';
+import 'favories_controller.dart';
 
-class PannierPage extends GetView<PannierController> {
+class FavoriesPage extends GetView<FavoriesController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
         child: Center(
-          child: Text('Pannier'),
+          child: Text('Favories'),
         ),
       ),
     );

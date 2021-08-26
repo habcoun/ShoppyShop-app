@@ -201,3 +201,32 @@ class MyDivider extends StatelessWidget {
     );
   }
 }
+
+AppBar appBar() {
+  return AppBar(
+    leading: IconButton(
+      color: ColorsApp.KPrimary,
+      icon: Icon(Icons.menu),
+      onPressed: () {},
+    ),
+    actions: <Widget>[
+      IconButton(
+        icon: Icon(
+          Icons.shopping_cart,
+          color: ColorsApp.KPrimary,
+        ),
+        onPressed: () {},
+      )
+    ],
+    backgroundColor: Colors.white,
+    centerTitle: true,
+    title: Text(
+      'ShoppyShop',
+      style: TextStyle(
+        color: ColorsApp.KPrimary,
+        fontSize: 18,
+        fontFamily: 'PoppinsMedium',
+      ),
+    ),
+  );
+}
