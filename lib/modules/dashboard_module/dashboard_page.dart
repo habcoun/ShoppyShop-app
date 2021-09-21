@@ -24,6 +24,7 @@ class DashboardPage extends GetView<DashboardController> {
                 PannierPage(),
               ],
             ),
+          
           ),
           bottomNavigationBar: SizedBox(
             height: 70,
